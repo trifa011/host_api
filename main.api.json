@@ -1,0 +1,66 @@
+{
+  "status": "success",
+  "totalResults": 3,
+  "deliveries": [
+    {
+      "deliveryId": "TT123",
+      "userId": "USER999",
+      "deliveryDate": "2024-03-16T00:00:00",
+      "deliveryLocation": {
+        "latitude": 37.7749,
+        "longitude": -122.4194
+      },
+      "fuelType": "regular",
+      "fuelQuantity": 25,
+      "paymentMethod": "credit_card",
+      "totalPrice": 50.00,
+      "deliveryStatus": "completed",
+      "description": "Your fuel delivery has been completed successfully.",
+      "url": "https://www.example.com/delivery123",
+      "urlToImage": "https://www.example.com/image1.jpg",
+      "title": "Fuel Delivery Completed",
+      "content": "Your recent fuel delivery has been completed successfully.",
+      "publishedAt": "2024-03-16T00:00:00"
+    },
+    {
+      "deliveryId": "TT0000",
+      "userId": "USER00",
+      "deliveryDate": "2024-03-15T00:30:00",
+      "deliveryLocation": {
+        "latitude": 34.0522,
+        "longitude": -118.2437
+      },
+      "fuelType": "premium",
+      "fuelQuantity": 35,
+      "paymentMethod": "paypal",
+      "totalPrice": 80.00,
+      "deliveryStatus": "pending",
+      "description": "Your fuel delivery is pending processing.",
+      "url": "https://www.example.com/delivery789",
+      "urlToImage": "https://www.example.com/image2.jpg",
+      "title": "Fuel Delivery Pending",
+      "content": "Thank you for choosing our service.",
+      "publishedAt": "2024-03-15T10:00:00"
+    },
+    {
+      "deliveryId": "TT345",
+      "userId": "USER77",
+      "deliveryDate": "2024-03-14T00:00:00",
+      "deliveryLocation": {
+        "latitude": 40.7128,
+        "longitude": -74.0060
+      },
+      "fuelType": "diesel",
+      "fuelQuantity": 45,
+      "paymentMethod": "cash",
+      "totalPrice": 120.00,
+      "deliveryStatus": "cancelled",
+      "description": "Your fuel delivery has been cancelled.",
+      "url": "https://www.example.com/delivery345",
+      "urlToImage": "https://www.example.com/image3.jpg",
+      "title": "Fuel Delivery Cancelled",
+      "content": "Your recent fuel delivery has been completed successfully. If you have any questions or concerns, please don't hesitate to contact our support team. We appreciate your business and look forward to serving you again in the future.",
+      "publishedAt": "2024-03-12T00:00:00"
+    }
+  ]
+}
